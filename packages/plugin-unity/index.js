@@ -2,7 +2,7 @@ var jsPsychUnityPlugin = (function (jspsych) {
   "use strict";
 
   const info = {
-    name: "moot-plugin",
+    name: "unity-plugin",
     parameters: {
       trial_duration: {
         type: jspsych.ParameterType.INT,
