@@ -64,7 +64,6 @@ var jsPsychUnityExtension = (function (jspsych) {
                 };
                 window.addEventListener(params["waitEvent"], listener);
               } else {
-                console.log("No WaitEvent");
                 resolve();
               }
             });
